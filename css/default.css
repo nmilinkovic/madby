@@ -4,6 +4,8 @@ html {
 	background: #FFF;
 	margin-left: -8px;
 	padding:0;
+	
+	overflow: hidden;
 }
 
 body {
@@ -21,9 +23,9 @@ div#mainMenu{
 	height: 30px;
 	
 	background-color: #AAA;
-	opacity: 0.6;
-	
+
 	text-indent: 10px;
+	z-index: 2;
 }
 
 div#canvas{
@@ -31,6 +33,7 @@ div#canvas{
 	height: 100%;
 	background-color: #EEE;
 	margin-top: 32px;
+	z-index: 1;
 }
 
 .buttonDelete{
