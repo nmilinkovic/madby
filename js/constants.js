@@ -1,8 +1,8 @@
 var GRID_SIZE = 10;
 var GRID_LINE_COLOR = "#DDD";
 
-var TABLE_WIDTH = 100;
-var TABLE_HEIGHT = 100;
+var TABLE_WIDTH = 120;
+var TABLE_HEIGHT = 120;
 var TABLE_CORNER = 5;
 
 var TABLE_COLOR = "red";

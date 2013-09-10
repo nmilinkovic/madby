@@ -71,6 +71,9 @@ window.onload = function() {
 		
 		var rect = canvas.rect(posX, posY, TABLE_WIDTH, TABLE_HEIGHT).attr({fill: TABLE_COLOR, stroke: TABLE_STROKE, opacity: TABLE_OPACITY});
 		
+		addButtonDeleteToTable(posX, posY, rect, canvasDiv);
+		addButtonNewColumnToTable(posX, posY, rect, canvasDiv);
+		
 		canvas.set(rect).drag(moveTable, startTable, endTable);
 		
 		elementsArray.push(rect);
