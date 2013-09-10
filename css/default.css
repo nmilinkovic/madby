@@ -31,7 +31,6 @@ div#canvas{
 	height: 100%;
 	background-color: #EEE;
 	margin-top: 32px;
-	overflow: visible;
 }
 
 .buttonDelete{
