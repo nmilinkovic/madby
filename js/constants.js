@@ -1,0 +1,12 @@
+var GRID_SIZE = 10;
+var GRID_LINE_COLOR = "#DDD";
+
+var TABLE_WIDTH = 100;
+var TABLE_HEIGHT = 100;
+var TABLE_CORNER = 5;
+
+var TABLE_COLOR = "red";
+var TABLE_STROKE = "#CCC";
+var TABLE_OPACITY = .6;
+
+var LINK_STROKE = "#22F";
